@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          /*
+           color: thay đổi màu chữ (vd: red, #a91414, rgb(169, 20, 20))
+           tương đương với: đặt tên màu:red, lấy màu theo hex, lấy màu theo rgb
+          background: màu nền
+          text-decoration:underline: gạch chân
+          font-style:italic : in nghiêng chữ
+          font-family: Verdana, Geneva, Tahoma, sans-serif-> thay đổi font chữ của web thành sans-serif
+          letter-spacing: 5px; thay đổi khoảng cách giữa các kí tự 
+          border-radius: bo tròn góc của element bất kỳ
+          bordre
+          border-style: chỉ định loại đường viền được hiển thị
+          border-width
+          border-color
+          with
+          height: chiều cao của 1 phần tử
+          margin: lề được dử dụng để tạo không gian xung quanh các phần tử
+          padding: tạo không gian xung quanh nd chưa phần tử
+          
+          */ 
+
+           body {
+               background-color:#F397B9  ;
+               font-family: Verdana, Geneva, Tahoma, sans-serif;
+           }
+        h1 {
+          
+            color:#0E9108    ;
+            background-color: #E7EB3A ;
+            border-radius: 10px;
+            width: fit-content;
+            padding: 10px;
+
+            margin-left: 10%;
+        }
+        h2{
+            background-color:  #19DECF;
+            color: white;
+            letter-spacing: 5px;
+        }
+        #general {
+           
+            text-decoration: underline;
+        }
+        .italic{
+            font-style: italic;
+        }
+        img  {
+           /* border-width: 20px;
+            border-style: solid;
+            border-color: black; */
+
+            border: 5px solid #19DECF;
+            border-radius: 50px;
+            margin-left: 10%;
+        }
+        table, th, td {
+            border: 5px solid #E7EB3A;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Heading: h1, h2, h3, h4, h5, h6 -->
+    <h1>Do Thi Lan Anh Portfolio</h1>
+
+    <!-- img -> hiển thị ảnh -->
+    <img src="257375301_3186693131553714_1323982112477753656_n.jpg" alt="" height="400" width="auto"> <br>
+
+    <video src="./y2mate.com - self introduction video _1080p.mp4" controls height="400"></video>
+
+    <!-- hr -> tạo line ngăn cách dòng -->
+    <hr>
+
+    <h2 id="general" class="italic">General Information</h2>
+    <h3>Name</h3>
+
+    <!-- p -> hiển thị paragraph -->
+    <p><i>Đỗ Thị Lan</i> Anh</p>
+
+    <h3 class="italic">Age</h3>
+    <p>18</p>
+
+    <h3 class="italic">Date of birth</h3>
+    <p>12/06/1998</p>
+
+    <h3 class="italic">Address</h3>
+    <p><del>Dong Hoi City</del></p>
+
+    <h3 class="italic">Phone number</h3>
+    <p>19001000</p>
+
+    <h3 class="italic">Email</h3>
+    <p>chachhoha@gmail.com</p>
+
+    <h3 class="italic">Gender</h3>
+    <p>female</p>
+
+    <h3 class="italic">GitHub link</h3>
+    <p>https://github.com/Anhchan1221998/</p>
+
+
+    <hr>
+
+    <h2>Work Experience</h2>
+
+    <!-- ol (ordered list) -> danh sách có thứ tự -->
+    <ol>
+        <!-- li (list item) -> hiển thị các thành phần trong danh sách -->
+        <li>Cad/Cam</li>
+        <li>pack job</li>
+    </ol>
+
+    <hr>
+
+    <h2>Favorite Musics</h2>
+
+    <!-- ul (unordered list) -> danh sách không có thứ tự -->
+    <ul>
+        <li>
+            Baby Shark <br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/7f4x5klGuvk"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </li>
+        <br>
+        <li>
+            Em của ngày hôm qua <br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/i0in7VWjgfs"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </li>
+        <br>
+        <li>
+            Ai chung tình được mãi <br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/eZpJdO22jZ0"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </li>
+    </ul>
+
+    <hr>
+
+    <h2>Contact</h2>
+    <!-- a -> anchor -->
+    <!-- href -> hyperlink reference -->
+    <a href="https://learn.codegym.vn/members/lam-long/">Visit my profile</a>
+<h2> My projects</h2>
+<table>
+    <tr>
+        <th>No.</th>
+        <th>Project name</th>
+    </tr>
+    <td>1.</td>
+    <td>Prtfolio Page</td>
+    <tr>
+        <td>2.</td>
+        <td>Twier Page</td>
+    </tr>
+    <tr>
+        <td>3.</td>
+    <td>Cat Id Registration</td>
+</tr>
+</table>
+</body>
+
+</html>

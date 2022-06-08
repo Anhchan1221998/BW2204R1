@@ -1,0 +1,22 @@
+h1 {
+    /*  margin: auto: căn chỉnh nằm ở giữa dạng blcok
+       width: 300px : chỉnh kích thước   
+    */
+    width: 300px;
+    margin: auto;
+}
+
+h1, p {
+    /* display: inline; */
+   }
+
+img {
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+p {
+   /*  display: none; không tồn tại, không hiển thị nội dung trên web */
+   
+}
