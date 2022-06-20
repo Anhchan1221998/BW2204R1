@@ -1,3 +1,10 @@
+body {
+    background-image: url("https://s3.ap-southeast-1.amazonaws.com/learn.codegym.vn/media/public/2021/05/01170243/a2-1.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px;
+    background-attachment: fixed;
+}
 h1 {
     /*  margin: auto: căn chỉnh nằm ở giữa dạng blcok
        width: 300px : chỉnh kích thước   
