@@ -1,0 +1,46 @@
+$primary-color: white;
+$secondary-color: #F8B547;
+
+
+
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+body{
+    background-image: url(./image/backgroud.jpg);
+background-repeat: no-repeat;
+.container-fluid{
+    background-color: rgba($color: #000000, $alpha: 0.7);
+}
+.primary-color{
+    color: $primary-color;
+}
+.primary-bg{
+    background-color: $primary-color;
+}
+.secondary-color{
+    color: $secondary-color ;
+}
+.secondary-bg{
+    background-color: $secondary-color;
+}
+.primary-boder:+{
+    border: 2px solid $primary-color;
+}
+.secondary-boder{
+        border: 2px solid $secondary-color;
+    }
+    .btn-register:hover {
+        background-color: rgba($color: #000000, $alpha:0 );
+        color: $secondary-color;
+
+    }
+    
+.btn-discover:hover{
+    background-color: white !important;
+    color:black;
+}
+
+}
